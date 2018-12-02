@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Epyllion ERP</title>
+  <title>Epyllion Apps</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/epyllion.png" rel="icon">
-  <link href="img/epyllion.png" rel="apple-touch-icon">
+  <link href="img/epyllion-black.png" rel="icon">
+  <link href="img/epyllion-black.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
@@ -52,7 +52,7 @@
             <ul>
               <li><a href="https://gmterp.epylliongroup.com" target="_blank">ERP</a></li>
               <li><a href="http://172.16.2.13:8010" target="_blank">Barcode Scan</a></li>
-              <li><a href="#" target="_blank">Donument Upload</a></li>
+              <li><a href="http://172.16.2.13:8040" target="_blank">Donument Upload</a></li>
             </ul>
           </li>
           <li><a href="http://172.16.2.13:8060" target="_blank">Textile ERP</a></li>
@@ -73,25 +73,35 @@
     <section id="portfolio" class="section-bg">
       <div class="container">
 
-        <header class="section-header">
+        <!--<header class="section-header">
           <h3 class="section-title">Our Apps</h3>
-        </header>
+        </header>-->
 
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"
-                  title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="javascript:void(0);" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
+            <a href="javascript:void(0);" class="link-details" data-toggle="popover" data-trigger="focus" data-html="true" id="gmterp">
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">                  
+                </figure>
 
-              <div class="portfolio-info">
-                <h4><a href="javascript:void(0);">Garments ERP</a></h4>
-                <p>Garments ERP short description</p>
+                <div class="portfolio-info">
+                  <h4><a href="javascript:void(0);" class="link-details" data-toggle="popover" data-trigger="focus" data-html="true" id="gmterp">Garments ERP</a></h4>
+                  <p>Garments ERP short description</p>
+                </div>
               </div>
+            </a>
+
+            <!--Popover Content-->
+            <div id="popover-content-gmterp" class="d-none">
+              <ul class="list-group">
+                <li class="list-group-item"><a href="https://gmterp.epylliongroup.com" target="_blank">ERP</a></li>
+                <li class="list-group-item"><a href="http://172.16.2.13:8010" target="_blank">Barcode Scan</a></li>
+                <li class="list-group-item"><a href="http://172.16.2.13:8040" target="_blank">Donument Upload</a></li>
+              </ul>
             </div>
+            <!--End of Popover Content-->
+
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-wow-delay="0.1s">

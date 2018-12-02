@@ -1,5 +1,16 @@
 jQuery(document).ready(function( $ ) {
 
+  $("[data-toggle=popover]").each(function (i, obj) {
+
+    $(this).popover({
+      html: true,
+      content: function () {
+        var id = $(this).attr('id')
+        return $('#popover-content-' + id).html();
+      }
+    });
+  });
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
