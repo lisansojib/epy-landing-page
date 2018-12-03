@@ -859,7 +859,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding: 90px 0;
+  padding: 90px 0 10px 0;
 }
 
 #portfolio #portfolio-flters {
@@ -904,14 +904,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 300px;
   overflow: hidden;
 }
 
 #portfolio .portfolio-item figure {
   background: #000;
   overflow: hidden;
-  height: 240px;
+  height: 190px;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
